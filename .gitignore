@@ -1,0 +1,3 @@
+# Excluir rutas
+venv/
+__pycache__/
