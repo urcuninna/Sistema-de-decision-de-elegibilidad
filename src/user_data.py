@@ -1,65 +1,122 @@
-# Simulador de nomina
+# Simulador decisiones RH
 
-lista_usuarios = [
+lista_empleados = [
     {
-        "Nombre" : "Felipe",
-        "Apellido" : "Sanchez",
-        "Edad" : 27,
-        "Salario" : 1750905,
-        "Auxilio de transporte" : False,
-        "Contrato" : "Termino indefinido",
-        "Horas extras" : 0,
-        "Remoto" : False
+        "Nombre": "Laura Gomez",
+        "Permanencia": 24,
+        "Tipo de contrato": "Termino indefinido",
+        "Rendimiento": 4.8,
+        "Salario": 7500000,
+        "Remoto": "Si",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 92,
+        "Nivel de estres": 4,
+        "Nominación manager": "Si",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "Si"
     },
 
     {
-        "Nombre": "Elena",
-        "Apellido": " Garcia",
-        "Edad": 35,
-        "Salario": 1750905,
-        "Auxilio de transporte": True,
-        "Contrato": "Termino fijo",
-        "Horas extras": 12,
-        "Remoto": True
+        "Nombre": "Camila Rojas",
+        "Permanencia": 30,
+        "Tipo de contrato": "Prestación de servicios",
+        "Rendimiento": 4.9,
+        "Salario": 8500000,
+        "Remoto": "Si",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 88,
+        "Nivel de estres": 5,
+        "Nominación manager": "Si",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "Si"
 
     },
 
     {
-        "Nombre": "Isac",
-        "Apellido": "Arrieta",
-        "Edad": 22,
-        "Salario": 1750905,
-        "Auxilio de transporte": False,
-        "Contrato": "Aprendizaje",
-        "Horas extras": 0,
-        "Remoto": True
-    },
-    
-    {
-        "Nombre": "Fernanda",
-        "Apellido": "Aristizabal",
-        "Edad": 31,
-        "Salario": 2500000,
-        "Auxilio de transporte": True,
-        "Contrato": "Obra labor",
-        "Horas extras": 6,
-        "Remoto": False
+        "Nombre": "Andrés Pérez",
+        "Permanencia": 18,
+        "Tipo de contrato": "Termino indefinido",
+        "Salario": 4200000,
+        "Rendimiento": 4.1,
+        "Remoto": "Si",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 52,
+        "Nivel de estres": 9,
+        "Nominación manager": "No",
+        "Referencias": "Si",
+        "Programa relacionado con el trabajo": "Si"
     },
 
     {
-        "Nombre": "Raúl",
-        "Apellido": "Mendez",
-        "Edad": 41,
-        "Salario": 3500000,
-        "Auxilio de transporte": False,
-        "Contrato": "Prestación de servicios",
-        "Horas extras": 0,
-        "Remoto": False
+        "Nombre": "Sebastian Torres",
+        "Permanencia": 36,
+        "Tipo de contrato": "Termino indefinido",
+        "Salario": 6300000,
+        "Rendimiento": 4.6,
+        "Remoto": "Si",
+        "Aprobación": "Si",
+        "Registro disciplinario": "Si",
+        "Puntaje de desempeño": 84,
+        "Nivel de estres": 6,
+        "Nominación manager": "No",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "Si"
+    },
+
+    {
+        "Nombre": "Irma Lopez",
+        "Permanencia": 3,
+        "Tipo de contrato": "Termino indefinido",
+        "Salario": 5000000,
+        "Rendimiento": 4.7,
+        "Remoto": "Si",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 87,
+        "Nivel de estres": 5,
+        "Nominación manager": "Si",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "Si"
+    },
+
+    {
+        "Nombre": "Ricardo Martinez",
+        "Permanencia": 14,
+        "Tipo de contrato": "Termino fijo",
+        "Salario": 3800000,
+        "Rendimiento": 3.8,
+        "Remoto": "No",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 67,
+        "Nivel de estres": 7,
+        "Nominación manager": "No",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "No"
+    },
+
+    {
+        "Nombre": "Hector Ramirez",
+        "Permanencia": 10,
+        "Tipo de contrato": "Termino fijo",
+        "Salario": 4600000,
+        "Rendimiento": 3.9,
+        "Remoto": "No",
+        "Aprobación": "Si",
+        "Registro disciplinario": "No",
+        "Puntaje de desempeño": 70,
+        "Nivel de estres": 6,
+        "Nominación manager": "Si",
+        "Referencias": "No",
+        "Programa relacionado con el trabajo": "Si"
     }
 
 ]
 
-print(lista_usuarios)
+'''print(lista_usuarios)
 print(type(lista_usuarios))
 print(lista_usuarios[0])
 print(len(lista_usuarios))
@@ -82,4 +139,4 @@ nuevos_usuarios["Nombre"]= nuevos_usuarios["Nombre"].capitalize()
 print (nuevos_usuarios)
 lista_usuarios.append(nuevos_usuarios)
 print(lista_usuarios)
-print(len(lista_usuarios))
+print(len(lista_usuarios))'''
